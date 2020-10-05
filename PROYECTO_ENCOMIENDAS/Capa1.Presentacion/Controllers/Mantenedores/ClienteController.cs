@@ -14,7 +14,7 @@ namespace Capa1.Presentacion.Controllers.Mantenedores
         public ActionResult Registro()
         {
             ViewBag.id = 0;
-            return View("~/Views/Mantenedores/Cliente/ClienteMantenedor.cshtml");
+            return View();
         }
 
         [Route("Listar")]
@@ -22,6 +22,7 @@ namespace Capa1.Presentacion.Controllers.Mantenedores
         {
             ViewBag.id = 0;
             return View("~/Views/Mantenedores/Cliente/ClienteListar.cshtml");
+
         }
     }
 }

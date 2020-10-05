@@ -1,0 +1,6 @@
+D:\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa2_Aplicacion\bin\Debug\Capa2_Aplicacion.dll
+D:\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa2_Aplicacion\bin\Debug\Capa2_Aplicacion.pdb
+D:\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa2_Aplicacion\obj\Debug\Capa2_Aplicacion.csprojAssemblyReference.cache
+D:\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa2_Aplicacion\obj\Debug\Capa2_Aplicacion.csproj.CoreCompileInputs.cache
+D:\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa2_Aplicacion\obj\Debug\Capa2_Aplicacion.dll
+D:\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa2_Aplicacion\obj\Debug\Capa2_Aplicacion.pdb
