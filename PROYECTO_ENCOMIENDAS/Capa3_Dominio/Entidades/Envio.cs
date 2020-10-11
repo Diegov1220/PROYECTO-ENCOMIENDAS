@@ -11,6 +11,10 @@ namespace Capa3_Dominio.Entidades
         public int Cantidad { get; set; }
         public int IdEnvio { get; set; }
         public int Precio { get; set; }
+        public String Remitente { get; set; }
+        public String Destinatario { get; set; }
+        public Paquete paquete { get; set; }
+        public Itinerario itinerario { get; set; }
 
         public double CalcularIngresosTotales()
         {
