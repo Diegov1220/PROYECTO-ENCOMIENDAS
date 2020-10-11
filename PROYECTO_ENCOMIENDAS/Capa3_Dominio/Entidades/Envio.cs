@@ -6,11 +6,22 @@ using System.Threading.Tasks;
 
 namespace Capa3_Dominio.Entidades
 {
-   public class Envio
+    public class Envio
     {
         public int Cantidad { get; set; }
         public int IdEnvio { get; set; }
         public int Precio { get; set; }
+        public String Remitente { get; set; }
+        public String Destinatario { get; set; }
+        public Paquete paquete { get; set; }
+        public Itinerario itinerario { get; set; }
+
+
+        public bool AgregarEnvio()
+        {
+            bool agregaEnvio = true;
+            return agregaEnvio;
+        }
 
         public double CalcularIngresosTotales()
         {
@@ -32,6 +43,11 @@ namespace Capa3_Dominio.Entidades
         {
             int Peso = 0;
             return Peso;
+        }
+
+        public void ActualizarCapacidadBus()
+        {
+            itinerario.bus.Capacidad = itinerario.bus.Capacidad - paquete.Peso;
         }
 
 

@@ -24,5 +24,12 @@ namespace Capa1.Presentacion.Controllers.Mantenedores
             return View("~/Views/Mantenedores/Cliente/ClienteListar.cshtml");
 
         }
+
+        [Route("RealizarEnvio")]
+        public ActionResult RealizarEnvio()
+        {
+            ViewBag.id = 0;
+            return View("~/Views/Cliente/RealizarEnvio.cshtml");
+        }
     }
 }

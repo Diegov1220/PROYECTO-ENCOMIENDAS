@@ -1497,6 +1497,7 @@
     <Content Include="Views\Cliente\Registro.cshtml" />
     <Content Include="Views\ReportarIngresosPorSucursal\ReportarIngresosPorSucursal.cshtml" />
     <Content Include="Views\Inicio\Dashboard.cshtml" />
+    <Content Include="Views\Cliente\RealizarEnvio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

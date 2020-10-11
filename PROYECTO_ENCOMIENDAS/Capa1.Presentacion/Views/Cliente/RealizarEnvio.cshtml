@@ -1,0 +1,155 @@
+﻿@model IEnumerable<Capa3_Dominio.Entidades.Envio>
+
+@{
+    ViewBag.Title = "RealizarEnvio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>RealizarEnvio </h2> 
+
+<div class="row">
+
+    <!-- Datos del Remitente -->
+    <div class="col-3">
+        <div class="form-group">
+            <div class="DatosRemitente">
+                <fieldset class="scheduler-border">
+                    <legend>
+                        Datos del Remitente
+                    </legend>
+                    <p>
+                        DNI: <input type="number" name="dni" size="40">
+                        <input type="submit" value="Buscar">
+                    </p>
+                    <p>
+                        Nombres: <input type="text" name="nombres" size="40">
+                    </p>
+                    <p>
+                        Apellidos: <input type="text" name="apellidos" size="40">
+                    </p>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <!-- Datos del Destinatario -->
+    <div class="col-3">
+        <div class="form-group">
+            <div class="DatosDestinatario">
+                <fieldset class="scheduler-border">
+                    <legend>
+                        Datos del destinatario
+                    </legend>
+                    <p>
+                        DNI: <input type="number" name="dni" size="40">
+                        <input type="submit" value="Buscar">
+                    </p>
+                    <p>
+                        Nombres: <input type="text" name="nombres" size="40">
+                    </p>
+                    <p>
+                        Apellidos: <input type="text" name="apellidos" size="40">
+                    </p>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <!-- Datos de los Envios -->
+    <div class="col-6">
+        <p>
+            <input type="submit" value="Agregar">
+        </p>
+        <h2>Envíos</h2>
+
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdEnvio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Remitente)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.paquete.Peso)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.itinerario.fechaLlegada)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Destinatario)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Precio)
+                </th>
+            </tr>
+
+        </table>
+        <p>
+            <input type="submit" value="cancelar">
+            <input type="submit" value="Realizar Envios">
+        </p>
+    </div>
+
+    <!-- Datos del Paquete -->
+    <div class="col-6">
+        <div class="DatosPaquete">
+            <fieldset class="scheduler-border">
+                <legend>
+                    Datos del Paquete
+                </legend>
+                <p>
+                    Categoria
+                    <select name="Categoria" id="categoria">
+                        <option value="1">
+                            Fragil
+                        </option>
+                        <option value="2">
+                            Normal
+                        </option>
+                    </select>
+                    Precio: <input type="number" name="precio" size="40">
+                </p>
+                <p>
+                    Peso: <input type="number" name="peso" size="40">
+                </p>
+                <p>
+                    Sucursal de Destino
+                    <select name="Destino" id="destino">
+                        <option value="1">
+                            La Libertad
+                        </option>
+                        <option value="2">
+                            Lima
+                        </option>
+                    </select>
+                    Vehiculo: <input type="text" name="vehiculo" size="40">
+                </p>
+                <p>
+                    Itinerario
+                    <select name="Itinerario" id="itinerario">
+                        <option value="1">
+                            9am
+                        </option>
+                        <option value="2">
+                            12pm
+                        </option>
+                    </select>
+                    Fecha de Llegada <input type="date" />
+                </p>
+                <p>
+                    Descripcion: <input type="text" name="descipcion" size="40">
+                </p>
+
+            </fieldset>
+        </div>
+    </div>
+
+
+
+</div>
+
+
