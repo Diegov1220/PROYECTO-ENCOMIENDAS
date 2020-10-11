@@ -16,10 +16,7 @@ namespace Capa3_Dominio.Entidades
         public int LugarLLegada { get; set; }
         public DateTime fechaSalida { get; set; }
         public DateTime fechaLlegada { get; set; }
-
-        public void ActualizarCapacidadBus()
-        {
-        }
+        public Bus bus { get; set; }
 
         public Boolean ValidarCapacidadBus()
         {
