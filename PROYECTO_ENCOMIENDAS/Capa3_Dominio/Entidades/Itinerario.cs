@@ -14,10 +14,9 @@ namespace Capa3_Dominio.Entidades
         public int IdItinerario { get; set; }
         public int LugarDestino { get; set; }
         public int LugarLLegada { get; set; }
-
-        public void ActualizarCapacidadBus()
-        {
-        }
+        public DateTime fechaSalida { get; set; }
+        public DateTime fechaLlegada { get; set; }
+        public Bus bus { get; set; }
 
         public Boolean ValidarCapacidadBus()
         {

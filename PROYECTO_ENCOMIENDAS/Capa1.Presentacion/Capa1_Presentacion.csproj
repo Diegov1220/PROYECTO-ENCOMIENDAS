@@ -1494,12 +1494,10 @@
     <Content Include="www\documentos\Operaciones\Transporte\Cotizacion2020-05-12-10-35-52.pdf" />
     <Content Include="Views\Home\Home.cshtml" />
     <Content Include="Views\Mantenedores\Cliente\ClienteListar.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Cliente\Registro.cshtml" />
     <Content Include="Views\ReportarIngresosPorSucursal\ReportarIngresosPorSucursal.cshtml" />
-=======
     <Content Include="Views\Inicio\Dashboard.cshtml" />
->>>>>>> 9b625a9ff1e2270f04f8d697c890fb78a0687f58
+    <Content Include="Views\Cliente\RealizarEnvio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,5 @@
+D:\DIARS\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa4_Persistencia\bin\Debug\Capa4_Persistencia.dll
+D:\DIARS\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa4_Persistencia\bin\Debug\Capa4_Persistencia.pdb
+D:\DIARS\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa4_Persistencia\obj\Debug\Capa4_Persistencia.csprojAssemblyReference.cache
+D:\DIARS\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa4_Persistencia\obj\Debug\Capa4_Persistencia.dll
+D:\DIARS\GIT\PROYECTO-ENCOMIENDAS\PROYECTO_ENCOMIENDAS\Capa4_Persistencia\obj\Debug\Capa4_Persistencia.pdb
